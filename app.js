@@ -43,7 +43,6 @@ _generatePassword(event) {
     const classes = event.target.className;
     if (classes === "display-box") {
       let textToCopy = event.target.innerHTML;
-      console.log(textToCopy);
       this._copyContent(textToCopy);
         }
       };
